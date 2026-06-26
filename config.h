@@ -27,13 +27,13 @@
 #define META_FILE "META.BIN" // stores LogHeader (4 bytes)
 #define LOG_FILE  "LOG.BIN"  // stores LogRecord array (MAX_SD_LOGS * 64 bytes)
 
-// NFC UIDs — replace with UIDs printed to Serial when you scan your actual tags
+// NFC UIDs — update with your own ID for NFC Tags
 const char* nfcUIDs[MAX_MEDICATIONS] = {
-  "AB 12 CD 34",
-  "EF 56 GH 78",
-  "IJ 90 KL 12",
-  "MN 34 OP 56",
-  "QR 78 ST 90"
+  "A3 4F 2B 91"
+  "7C 18 E5 03"
+  "B2 9D 6A F7"
+  "04 3E C1 58"
+  "D7 82 0F 44"
 };
 
 // Medication schedule — edit this to match your patients and drugs
